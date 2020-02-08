@@ -1,0 +1,12 @@
+/* 모바일 디바이스 */
+.appHeader, .appMain, .appFooter{
+  width: 100%;
+}
+.appNavigation{
+  width: 70%;
+  transform: translateX(-50%);
+}
+/* 메인 콘텐츠 */
+.book, .news, .board, .favorite, .twitter{
+  width: 100%;
+}

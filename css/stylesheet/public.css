@@ -1,0 +1,15 @@
+/* 기본 박스 사이징 설정 */
+body *, body *::before, body *::after{
+  box-sizing: border-box;
+}
+/* 컨테이너 */
+.container{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* 메인 콘텐츠 */
+.appMain{
+  display: flex;
+  flex-flow: row wrap;
+}
