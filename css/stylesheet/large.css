@@ -1,3 +1,7 @@
+/* 데스크탑 디바이스 */
+body{
+  font-size: 1.6em;
+}
 /* 컨테이너 */
 .container{
   justify-content: center;

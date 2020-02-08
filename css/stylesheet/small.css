@@ -1,4 +1,7 @@
 /* 모바일 디바이스 */
+body{
+  font-size: 1.4rem;
+}
 .appHeader, .appMain, .appFooter{
   width: 100%;
 }
