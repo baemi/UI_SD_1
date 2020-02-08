@@ -12,14 +12,34 @@ html{
   font-size: 10px;
 }
 body{
-  font-weight: 900;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 400;
 }
 /* 컨테이너 */
 .container{
   display: flex;
   flex-flow: row wrap;
 }
-
+/* 헤더 */
+/* 멤버 서비스 */
+.memberOnly{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.memberOnly a{
+  padding: 0.5em 0;
+  display: inline-block;
+}
+/* 검색 폼 */
+input[name="search"]{
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  height: 35px;
+  padding: 2px 1em;
+}
 /* 메인 콘텐츠 */
 .appMain{
   display: flex;

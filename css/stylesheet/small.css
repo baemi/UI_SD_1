@@ -5,6 +5,63 @@ body{
 .appHeader, .appMain, .appFooter{
   width: 100%;
 }
+/* 헤더 */
+.appHeader{
+  background-color: #38302e;
+  color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  padding-bottom: 20px;
+}
+.brand, .memberOnly, .searchForm{
+  width: 100%;
+}
+.brand, .memberOnly, .searchForm, .appMain, .appFooter{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* 로고 */
+.brand{
+
+}
+/* 멤버 서비스 */
+.memberOnly{
+  order: -1;
+  background-color: #988574;
+}
+/* 검색 폼 */
+.searchForm{
+
+}
+.searchForm fieldset{
+  
+}
+input[name="search"]{
+  width: calc(100% - 105px);
+  display: inline-block;
+  margin-right: auto;
+}
+.buttonSearch{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  font-size: 1.2rem;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  color: #fff;
+}
+.buttonSearch::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+  background: url(./../images/btn_search.png);
+  background-size: cover;
+}
 .appNavigation{
   width: 70%;
   transform: translateX(-50%);

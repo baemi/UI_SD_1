@@ -12,6 +12,15 @@ body{
 .appNavigation, .appFooter{
   width: 100%;
 }
+/* 헤더 */
+/* 검색 폼 */
+.searchForm{
+  text-align: right;
+}
+input[name="search"]{
+  width: 450px;
+}
+
 /* 메인 콘텐츠 */
 .appMain{
   justify-content: space-between;
